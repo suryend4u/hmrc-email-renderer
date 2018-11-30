@@ -16,7 +16,7 @@
 
 package uk.gov.hmrc.hmrcemailrenderer.controllers.model
 
-import com.ning.http.util.Base64
+import com.sun.org.apache.xerces.internal.impl.dv.util.Base64
 import play.api.libs.json._
 import uk.gov.hmrc.play.test.UnitSpec
 
