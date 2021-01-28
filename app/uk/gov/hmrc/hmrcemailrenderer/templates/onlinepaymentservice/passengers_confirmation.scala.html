@@ -40,10 +40,10 @@ val volOrQuantityOrWeight = if (quantity.isDefined) quantity.as[String]  else if
 val itemDesc = s"$volOrQuantityOrWeight $commodityDescription"
 
 val goodsValue = (item \ "goodsValue").as[String]
-val valueCurrency = (item \ "valueCurrency").as[String]
+val valueCurrency = (item \ "valueCurrencyName").as[String]
 val localValue = s"$goodsValue $valueCurrency"
 
-val originCountry = (item \ "originCountry").as[String]
+val originCountry = (item \ "originCountryName").as[String]
 
 val exciseGBP = (item \ "exciseGBP").as[String]
 val customsGBP = (item \ "customsGBP").as[String]

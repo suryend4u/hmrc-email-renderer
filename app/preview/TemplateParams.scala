@@ -1747,7 +1747,7 @@ object TemplateParams2 {
       "subject"         -> "Receipt for payment on goods brought into the UK - Reference number XAPR9876543210",
       "NAME"            -> "Jura Smith",
       "DATE"            -> "5 December 2020",
-      "PLACEOFARRIVAL"  -> "LHR",
+      "PLACEOFARRIVAL"  -> "Humberside Airport",
       "DATEOFARRIVAL"   -> "4 December 2020",
       "TIMEOFARRIVAL"   -> "12:15 PM",
       "REFERENCE"       -> "XAPR9876543210",
@@ -1755,7 +1755,7 @@ object TemplateParams2 {
       "TOTALEXCISEGBP"  -> "£10.50",
       "TOTALCUSTOMSGBP" -> "£5.50",
       "TOTALVATGBP"     -> "£20.50",
-      "AllITEMS"        -> "[{\"commodityDescription\":\"Beer\",\"volume\":\"35\",\"goodsValue\":\"3254.00\",\"valueCurrency\":\"USD\",\"originCountry\":\"BQ\",\"exchangeRate\":\"1.3303\",\"exchangeRateDate\":\"2020-12-07\",\"goodsValueGBP\":\"2446.06\",\"VATRESClaimed\":false,\"exciseGBP\":\"28.00\",\"customsGBP\":\"0.00\",\"vatGBP\":\"494.81\"},{\"commodityDescription\":\"Cigarettes\",\"quantity\":\"357\",\"goodsValue\":\"753.00\",\"valueCurrency\":\"USD\",\"originCountry\":\"BQ\",\"exchangeRate\":\"1.3303\",\"exchangeRateDate\":\"2020-12-07\",\"goodsValueGBP\":\"566.03\",\"VATRESClaimed\":false,\"exciseGBP\":\"108.96\",\"customsGBP\":\"283.01\",\"vatGBP\":\"191.60\"},{\"commodityDescription\":\"Adult clothing\",\"quantity\":\"1\",\"goodsValue\":\"258.00\",\"valueCurrency\":\"USD\",\"originCountry\":\"BQ\",\"exchangeRate\":\"1.3303\",\"exchangeRateDate\":\"2020-12-07\",\"goodsValueGBP\":\"193.94\",\"VATRESClaimed\":false,\"exciseGBP\":\"0.00\",\"customsGBP\":\"0.00\",\"vatGBP\":\"0.00\"}]"
+      "AllITEMS"        -> "[{\"commodityDescription\":\"Beer\",\"volume\":\"35\",\"goodsValue\":\"3254.00\",\"valueCurrencyName\":\"USA dollars (USD)\",\"originCountryName\":\"United States of America\",\"exchangeRate\":\"1.3303\",\"exchangeRateDate\":\"2020-12-07\",\"goodsValueGBP\":\"2446.06\",\"VATRESClaimed\":false,\"exciseGBP\":\"28.00\",\"customsGBP\":\"0.00\",\"vatGBP\":\"494.81\"},{\"commodityDescription\":\"Cigarettes\",\"quantity\":\"357\",\"goodsValue\":\"753.00\",\"valueCurrencyName\":\"USA dollars (USD)\",\"originCountryName\":\"United States of America\",\"exchangeRate\":\"1.3303\",\"exchangeRateDate\":\"2020-12-07\",\"goodsValueGBP\":\"566.03\",\"VATRESClaimed\":false,\"exciseGBP\":\"108.96\",\"customsGBP\":\"283.01\",\"vatGBP\":\"191.60\"},{\"commodityDescription\":\"Adult clothing\",\"quantity\":\"1\",\"goodsValue\":\"258.00\",\"valueCurrencyName\":\"USA dollars (USD)\",\"originCountryName\":\"United States of America\",\"exchangeRate\":\"1.3303\",\"exchangeRateDate\":\"2020-12-07\",\"goodsValueGBP\":\"193.94\",\"VATRESClaimed\":false,\"exciseGBP\":\"0.00\",\"customsGBP\":\"0.00\",\"vatGBP\":\"0.00\"}]"
     ),
     "digital_tariffs_advice_request" -> Map(
       "reference"             -> "REFERENCE",
